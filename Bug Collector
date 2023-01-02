@@ -1,0 +1,9 @@
+Bugs = 0;
+Day = 1
+while Day <= 7:
+    print("Day", Day)
+    num_of_bugs_collected = int(input("Enter the number of bugs collected: "))
+    Bugs += num_of_bugs_collected
+    Day += 1
+
+print("Total number of bugs collected: ", Bugs)
